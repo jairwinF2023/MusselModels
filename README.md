@@ -12,6 +12,6 @@ Welcome to the Mussel Image Classifier code set. Below is a run-down of each:
    
 3. QuickCropper
    
-   QuickCropper provides a pretrained model that is able to extract images from a larger image if it is above a given threshold of certainty. This model does not 
+   QuickCropper provides a pretrained model that is able to extract images from a larger image if it is above a given threshold of certainty. This model does not guarantee that all the images extracted will be the same shape due to items on edges. 
 
 A recommendation prior to continuing this problem would be to look into MNIST classification for an introductory base for those unfamiliar with Pytorch. A modified version that addresses rotation and skewness of items can be found here: https://github.com/jairwinF2023/STAT4744Final
